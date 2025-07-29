@@ -25,7 +25,6 @@ def classify_bmi(bmi):
 try:
     weight = float(input("Enter your weight in kilograms (kg): "))
     height = float(input("Enter your height in meters (m): "))
-
     bmi = calculate_bmi(weight, height)
     category = classify_bmi(bmi)
 
